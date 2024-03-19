@@ -1,0 +1,111 @@
+.booking-list-container {
+  color: #fff;
+}
+
+.booking-table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  border-collapse: collapse;
+  background: linear-gradient(#325269, #0d3d7b); /* Gradient from lighter blue to darker blue */
+}
+
+.booking-table th {
+  text-align: center; /* Center align table headers */
+  color: #fff; /* White text color */
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #fff; /* White border */
+}
+
+.booking-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter background color on hover */
+}
+
+
+.details-button,
+.delete-button {
+  background-color: #fff; /* White background color */
+  color: #3498db; /* Blue text color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: #C70000; /* Red text color */
+}
+.delete-button:hover {
+  transform: scale(1.25); /* Scale up the button slightly on hover */
+}
+
+.details-button {
+  background-color: #fff; /* White background color */
+  color: #3498db; /* Blue text color */
+  border: none;
+  padding: 5px 10px; /* Increase padding for bigger button */
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s; /* Smooth transition on hover */
+}
+
+.details-button:hover {
+  background-color: #3498db; /* Blue background color on hover */
+  color: #fff; /* White text color on hover */
+  transform: scale(1.05); /* Scale up the button slightly on hover */
+}
+
+
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin-right: 5px;
+}
+
+.pagination li a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #fff; /* White border */
+  cursor: pointer;
+}
+
+.pagination li a:hover {
+  background-color: #fff; /* White background color */
+  color: #3498db; /* Blue text color */
+}
+
+.create-button {
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.create-button:hover {
+  background-color: #388e3c; /* Darker green background color on hover */
+}
+
+.center{
+  padding-left: 50px;
+}
+

@@ -1,0 +1,38 @@
+/* details.css */
+
+.booking-details-container {
+    max-width: 600px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow */
+  }
+  
+  .booking-details {
+    margin-top: 20px;
+  }
+  
+  .booking-details p {
+    margin: 5px 0;
+    color: #fff; /* White text */
+  }
+  
+  .error-message {
+    color: #ff8080; /* Light red for error messages */
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db; /* Light blue for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #66b3ff; /* Light blue hover color */
+  }
+  
